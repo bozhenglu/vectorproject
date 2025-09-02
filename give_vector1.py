@@ -57,7 +57,8 @@ encoder = Model(inputs=input_img, outputs=encoder_output)  # 只取向量
 # 提取向量
 # -----------------------------
 latent_vectors = encoder.predict(x_data_flat)
-print("向量形狀:", latent_vectors.shape)  # (總張數, latent_dim)
+
+
 
 # -----------------------------
 # 可選：分組存成兩個 npy 檔

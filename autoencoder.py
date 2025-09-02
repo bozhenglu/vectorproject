@@ -1,3 +1,10 @@
+"""
+我搞懂這段程式碼在幹嘛了，
+encoder根據讀進來的圖片給向量特徵，
+最後再按照encoder給的特徵將向量特徵相近的畫在一起
+"""
+
+
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 
